@@ -11,3 +11,6 @@
 .vertical-timeline-element-content-arrow:before {
     display: none;
 }
+.vertical-timeline-element-content {
+    border-bottom: none !important;
+}

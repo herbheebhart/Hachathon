@@ -7,7 +7,7 @@ const Timer = () => {
     const [second,setSeconds] = useState("00");
     let interval = useRef();
     const startTimer = () => {
-        const newDate = new Date("November 12,2023 00:00:00");
+        const newDate = new Date("march 12,2024 00:00:00");
         interval = setInterval(() =>{
             const now = new Date();
             const diff = newDate - now;
